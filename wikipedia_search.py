@@ -45,7 +45,7 @@ def search():
     data=wiki.page(my_entry.get())
     #clear screen
     clear()
-    #output wiki resutl
+    #output wiki result
     my_text.insert(0.0,data.content)
     
 
